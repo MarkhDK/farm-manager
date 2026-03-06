@@ -1,0 +1,82 @@
+.input {
+    -fx-min-width: 0;
+    -fx-pref-width: 300;
+}
+
+.form-content {
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-background-radius: 5px;
+}
+
+.form-content, .form-content * {
+    -fx-background-color: -fx-element;
+}
+
+.input {
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-min-height: 50px;
+    -fx-pref-height: 50px;
+}
+
+.farm-form-toggle-btn {
+    -fx-min-width: 100px;
+    -fx-max-width: 150px;
+    -fx-pref-width: 100px;
+
+    -fx-min-height: 40px;
+    -fx-max-height: 40px;
+    -fx-pref-height: 40px;
+}
+
+#pageContent Button {
+    -fx-background-color: -fx-active;
+}
+
+#pageContent Button:hover, #pageContent Button.btn-submit:hover {
+    -fx-background-color: -fx-medium-dark;
+}
+
+#pageContent Button:pressed, #pageContent Button.btn-submit:pressed {
+    -fx-background-color: -fx-medium-light;
+}
+
+.input-text, .input-combobox {
+    -fx-border-color: -fx-dark;
+}
+
+.input-text:focused, .input-combobox:focused {
+    -fx-border-color: -fx-medium-light;
+}
+
+#pageContent Button.btn-submit {
+    -fx-min-width: 60px;
+    -fx-max-width: 60px;
+    -fx-pref-width: 60px;
+
+    -fx-min-height: 40px;
+    -fx-max-height: 40px;
+    -fx-pref-height: 40px;
+
+    -fx-background-color: -fx-dark;
+}
+
+.justify-end {
+    -fx-alignment: top-right;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: -fx-active;
+}
+
+.combo-box .arrow {
+    -fx-background-color: -fx-txt;
+}
+
+.farm-list-content, .farm-list-content * {
+    -fx-background-color: -fx-element;
+}

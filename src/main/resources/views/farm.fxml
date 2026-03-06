@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.markh.ui.controller.FarmController"
+            stylesheets="/styles/farms.css">
+        <VBox fx:id="pageNavList" styleClass="navbar">
+            <Button fx:id="btnImplements" text="Implements" styleClass="sub-navbar-button" onAction="#showImplementPage"/>
+        </VBox>
+
+    <VBox fx:id="farmPageContent" spacing="8">
+        <VBox fx:id="formContainer" styleClass="farm-form-content" />
+        <HBox fx:id="equipmentEditSplitContainer">
+            <VBox fx:id="equipmentList" styleClass="farm-list-content" />
+            <VBox fx:id="editContainer" styleClass="farm-edit-content" />
+        </HBox>
+    </VBox>
+</HBox>

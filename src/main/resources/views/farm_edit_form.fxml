@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="VBox"
+            xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml">
+    <Button fx:id="cancelEdit" styleClass="btn-cancel-edit" text="Discard" />
+    <TextField fx:id="make" styleClass="input-text, input" />
+    <TextField fx:id="model" styleClass="input-text, input" />
+    <TextField fx:id="width" styleClass="input-text, input" />
+    <TextField fx:id="speed" styleClass="input-text, input" />
+    <ComboBox fx:id="inputFirst" styleClass="input-combobox, input" />
+    <ComboBox fx:id="inputSecond" styleClass="input-combobox, input" />
+    <ComboBox fx:id="workTypeFirst" styleClass="input-combobox, input" />
+    <ComboBox fx:id="workTypeSecond" styleClass="input-combobox, input" />
+    <Button fx:id="saveChanges" styleClass="btn-submit" text="Save" />
+</fx:root>

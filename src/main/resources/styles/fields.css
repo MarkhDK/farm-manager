@@ -1,0 +1,54 @@
+#fieldList {
+    -fx-min-width: 200;
+    -fx-max-width: 200;
+    -fx-pref-width: 200;
+
+    -fx-background-color: -fx-element;
+}
+
+#fieldDetails {
+    -fx-min-width: 1325;
+    -fx-max-width: 1325;
+    -fx-border-width: 1325;
+
+    -fx-min-height: 900;
+    -fx-max-height: 900;
+    -fx-pref-height: 900;
+}
+
+#fieldHeader {
+    -fx-pref-width: 1325;
+    -fx-alignment: center;
+}
+
+.field-details-content {
+    -fx-min-width: 1325;
+    -fx-max-width: 1325;
+    -fx-pref-width: 1325;
+    -fx-alignment: center;
+}
+
+#fieldRowTop {
+    -fx-pref-width: 1275;
+    -fx-max-width: 1275;
+
+    -fx-min-height: 50;
+    -fx-max-height: 50;
+    -fx-pref-height: 50;
+
+    -fx-background-color: -fx-element;
+    -fx-background-radius: 10;
+
+    -fx-alignment: center;
+}
+
+.field-top-row-split {
+    -fx-min-width: 600;
+    -fx-background-color: -fx-element;
+    -fx-alignment: center-left;
+}
+
+.field-info {
+    -fx-background-color: -fx-element;
+    -fx-font-size: 20;
+}

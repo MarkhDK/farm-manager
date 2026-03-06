@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="VBox" spacing="8"
+            xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml">
+    <HBox fx:id="btnHideContainer" styleClass="btn-hide-form-row">
+        <Button fx:id="btnToggleForm" text="Add Implement" styleClass="farm-form-toggle-btn" />
+    </HBox>
+
+    <VBox fx:id="formContent" styleClass="form-content">
+        <HBox>
+            <TextField fx:id="make" styleClass="input-text, input" promptText="Make" />
+            <TextField fx:id="model" styleClass="input-text, input" promptText="Model" />
+            <TextField fx:id="width" styleClass="input-text, input" promptText="Work width" />
+            <TextField fx:id="speed" styleClass="input-text, input" promptText="Work speed" />
+        </HBox>
+
+        <HBox>
+            <ComboBox fx:id="inputFirst" styleClass="input-combobox, input" />
+            <ComboBox fx:id="inputSecond" styleClass="input-combobox, input" />
+            <ComboBox fx:id="workTypeFirst" styleClass="input-combobox, input" />
+            <ComboBox fx:id="workTypeSecond" styleClass="input-combobox, input" />
+        </HBox>
+        <HBox styleClass="justify-end">
+            <Button fx:id="saveImplementBtn" styleClass="btn-submit" text="Save"/>
+        </HBox>
+    </VBox>
+</fx:root>

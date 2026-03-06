@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.markh.ui.controller.PlansController"
+            styleClass="plan-view">
+    <ScrollPane styleClass="content-area">
+        <VBox fx:id="content" styleClass="content-area-vertical">
+            <HBox styleClass="heading">
+                <Button fx:id="createPlan" onAction="#loadPlanForm" text="Create Plan"/>
+            </HBox>
+
+            <VBox fx:id="planForm" styleClass="plan-form"/>
+        </VBox>
+    </ScrollPane>
+</HBox>

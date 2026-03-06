@@ -1,0 +1,60 @@
+* {
+    -fx-txt: #efefec;
+    -fx-light: #05F26C;
+    -fx-medium-light: #03A64A;
+    -fx-medium-dark: #0A5926;
+    -fx-dark: #08401B;
+
+    -fx-active: #0a3035;
+    -fx-element: #132426;
+    -fx-bg: #030709;
+
+    -fx-background-color: -fx-bg;
+    -fx-text-fill: -fx-txt;
+
+    -fx-font-family: Helvetica;
+}
+
+Button {
+    -fx-background-color: -fx-element;
+}
+
+Button:hover {
+    -fx-background-color: -fx-active;
+}
+
+.title {
+    -fx-pref-height: 40;
+    -fx-font-size: 40;
+    -fx-text-fill: -fx-txt;
+}
+
+.title-subscript {
+    -fx-pref-height: 40;
+    -fx-font-size: 16;
+    -fx-alignment: bottom-center;
+}
+
+.navbar {
+    -fx-background-color: -fx-element;
+
+    -fx-border-width: 0 1 0 0;
+    -fx-border-color: -fx-bg;
+}
+
+.navbar-button{
+    -fx-background-radius: 0;
+
+    -fx-min-width: 75;
+    -fx-max-width: 75;
+    -fx-pref-width: 75;
+
+    -fx-min-height: 75;
+    -fx-max-height: 75;
+    -fx-pref-height: 75;
+}
+
+.sub-navbar-button {
+    -fx-min-width: 150;
+    -fx-min-height: 75;
+}

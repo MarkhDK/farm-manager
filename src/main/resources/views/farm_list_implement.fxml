@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="VBox"
+            xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml">
+    <HBox styleClass="farm-list-row">
+        <Label fx:id="makeLabel" styleClass="farm-list-item-label" />
+        <Label fx:id="modelLabel" styleClass="farm-list-item-label" />
+        <Label fx:id="widthLabel" styleClass="farm-list-item-label" />
+        <Label fx:id="speedLabel" styleClass="farm-list-item-label" />
+        <Button fx:id="deleteEquipmentBtn" text="Delete" styleClass="farm-list-item-button" />
+        <Button fx:id="updateEquipmentBtn" text="Edit" styleClass="farm-list-item-button" />
+    </HBox>
+
+    <HBox styleClass="farm-list-row">
+        <Label fx:id="inputFirstLabel" styleClass="farm-list-item-label" />
+        <Label fx:id="inputSecondLabel" styleClass="farm-list-item-label" />
+        <Label fx:id="workTypeFirstLabel" styleClass="farm-list-item-label" />
+        <Label fx:id="workTypeSecondLabel" styleClass="farm-list-item-label" />
+    </HBox>
+</fx:root>

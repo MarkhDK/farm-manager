@@ -1,0 +1,29 @@
+.field-card {
+    -fx-min-width: 200;
+    -fx-max-width: 200;
+    -fx-pref-width: 200;
+
+    -fx-min-height: 50;
+    -fx-max-height: 50;
+    -fx-pref-height: 50;
+
+    -fx-background-color: -fx-element;
+}
+
+.field-card-label {
+    -fx-min-width: 100;
+    -fx-max-width: 100;
+    -fx-pref-width: 100;
+
+    -fx-min-height: 50;
+    -fx-max-height: 50;
+    -fx-pref-height: 50;
+
+    -fx-background-color: -fx-element;
+
+    -fx-alignment: center;
+}
+
+.field-card:hover, .field-card:hover .field-card-row, .field-card:hover .field-card-label {
+    -fx-background-color: -fx-active;
+}
